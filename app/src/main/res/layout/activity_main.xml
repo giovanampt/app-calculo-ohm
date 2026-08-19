@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editVoltage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tensão (V)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editResistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Resistência (Ω)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editCurrent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Corrente (A)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+</LinearLayout>
